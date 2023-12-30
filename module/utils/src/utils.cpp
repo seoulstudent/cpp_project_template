@@ -1,9 +1,5 @@
-#include <iostream>
-
 #include "utils/utils.hpp"
 
-void Print(const std::string& message){
+#include <iostream>
 
-    std::cout << message << std::endl;
-
-}
+void Print(const std::string& message) { std::cout << message << std::endl; }
